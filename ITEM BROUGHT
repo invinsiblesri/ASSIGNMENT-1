@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class ItemsBought {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter number of items bought: ");
+int items = sc.nextInt();
+System.out.println("Items bought: " + items);
+}
+}
